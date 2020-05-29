@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* global */
+body {position:relative; -webkit-text-size-adjust:none; font-size:16px!important; font-weight: 400;}
+body,th,td,input,select,textarea,button,a {color:#333; font-family:'Noto Sans','Roboto', HelveticaNeue,AppleSDGothicNeo,"Malgun Gothic","맑은 고딕",sans-serif!important}
+
+
+/* layout */
+.bg_blue {background: #5799F7}
+.u_skip{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+#intro {position: relative;}
+.bg-intro {background: url("../images/bg-intro.png") no-repeat; position: fixed; left: 0; top: 0; right: 0; bottom: 0; background-size:cover; z-index: 0}
+#intro h1 {position: fixed; top: 90px;  z-index: 2; width: 220px; text-align: center; left: 50%; margin-left: -110px}
+#intro .btn-login {position: fixed; bottom: 270px; z-index: 3; font-size: 18px; text-align: center; width: 120px;left: 50%; margin-left: -60px }
+#Wapper {position:relative; overflow:hidden; height:100%;}
+#Content {overflow:hidden; z-index:97; margin-top:56px; padding: 10px 20px }
+
+/* align */
+.tl {text-align:left;}
+.tr {text-align:right;}
+.tc {text-align:center;}
+
+/* float */
+.fl_l {float:left;}
+.fl_r {float:right;}
+
+
